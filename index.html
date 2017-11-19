@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <head>
+  <!--favicon-->
+  <link rel="shortcut icon" href="assests/favicon.ico" type="image/x-icon">
+<link rel="icon" href="assets/favicon.ico" type="image/x-icon">
   <!-- include LogoFont -->
   <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
   <!-- include Open Sans font -->
@@ -21,25 +24,33 @@
 </head>
 <body data-spy="scroll" data-target="#main-navbar" data-offset="58">
   <!-- define navbar -->
-    <nav id="main-navbar" class="navbar navbar-light fixed-top bg-light">
+    <nav id="main-navbar" class="navbar navbar-expand-md navbar-dark fixed-top">
         <a class="navbar-brand" href="#">Liz</a>
-        <ul class="nav nav-pills">
-            <li class="nav-item">
-                <a class="nav-link" href="#profile">About me</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#experience">Experience</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#projects">Projects</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#skills">Skills</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#contact">Contact</a>
-            </li>
-        </ul>
+        <button class="navbar-toggler navbar-toggler-styling" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <svg class = "navbar-icon" width="20" height="20">
+                <line x1="5" y1="10" x2="15" y2="10" style="stroke:#fafad1;stroke-width:2" />
+                <line x1="10" y1="5" x2="10" y2="15" style="stroke:#fafad1;stroke-width:2" />
+            </svg>
+        </button>
+        <div class = "collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="nav nav-pills">
+                <li class="nav-item">
+                    <a class="nav-link" href="#profile">About me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#experience">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
     </nav>
 
     <!-- define initial title pane -->
@@ -62,8 +73,9 @@
                     <img src="assets/profile.jpg" alt="" class="profile-image">
                 </div>
                 <div class="bio col-sm-12 col-md-8">
-                    <p>Has absolutly <strong>NO</strong> idea what to say about herself.
-                        An <strong>opera singer</strong> I guess, is one thing I can say.</p>
+                    <p>Student, developer, musican, and life-long learner. Liz Davies is really bad about talking about herself.
+                        Is anyone good at that?
+                    </p>
                 </div>
             </div>
         </div>
@@ -79,62 +91,76 @@
                 <!-- row of experiences -->
                 <div class="row justify-content-around">
                     <div class="location col-lg-3">
-                        <h4>Venenatis</h4>
+                        <h4>Virtual Ventures</h4>
                         <p>
-                            May 2017 - August 2017
+                            Sept 2017 - Oct 2017
                         </p>
                     </div>
                     <!-- TODO: set grid size for the following div -->
                     <div class="JobDesc col-lg-9">
-                        <strong>Software Engineering Intern</strong>
+                        <strong>Saturday Clubs Instructor</strong>
                         <ul>
-                            <li><span>Venenatis magnis velit tristique pharetra blandit bibendum dis senectus id sociosqu ut himenaeos nibh nisl, malesuada metus netus.</span></li>
-                            <li><span>Dignissim parturient tincidunt neque justo magna phasellus habitasse facilisi ac, nibh curabitur leo ultricies suspendisse rhoncus.</span></li>
-                            <li><span>Varius dictumst pellentesque velit inceptos in id nullam, augue cubilia mus tempus etiam eros porttitor, tincidunt diam ultrices vehicula.</span></li>
+                            <li><span>Designed lessons on the topic of coding, starting with scratch then introducing python</span></li>
+                            <li><span>Over the course of 5 weekends, taught, guided, and supervised girls with the goal of inspiring them toward a life as a programmer</span></li>
                         </ul>
                     </div>
                 </div>
                 <div class="row justify-content-around">
                     <!-- TODO: set grid size for the following div -->
                     <div class="location col-lg-3">
-                        <h4>Shopify</h4>
+                        <h4>Virtual Ventures</h4>
                         <p>
-                            May 2016 - December 2016
+                            May 2017 - Aug 2017
                         </p>
                     </div>
                     <!-- TODO: set grid size for the following div -->
                     <div class="JobDesc col-lg-9">
-                        <strong>Payments Software Developer Intern</strong>
+                        <strong>Camp Instructor</strong>
                         <ul>
-                            <li><span>Volutpat massa condimentum nisl mus ac class ullamcorper habitant, himenaeos venenatis imperdiet accumsan.</span></li>
-                            <li><span>Platea donec dictum dui curabitur at commodo nisi ornare, vulputate malesuada placerat venenatis vitae tellus himenaeos velit eget.</span></li>
-                            <li><span>Molestie sociis leo curae luctus purus gravida risus odio suspendisse, curabitur parturient viverra imperdiet conubia congue aenean a.</span></li>
-                            <li><span>Eleifend dictum suspendisse cubilia litora facilisi congue pharetra magnis himenaeos nam, nascetur lectus per viverra aliquam hendrerit phasellus ac.</span></li>
+                            <li><span>Designed lessons in a variety of topics in various areas of STEM</span></li>
+                            <li><span>Took initiative to learn new topics and technologies that would appeal to and inspire kids</span></li>
+                            <li><span>Taught and supervised children of various ages with the goal of inspiring a love of STEM subjects</span></li>
                         </ul>
                     </div>
                 </div>
                 <div class="row justify-content-around">
-                    <!-- TODO: set grid size for the following div -->
                     <div class="location col-lg-3">
-                        <h4>Eleifend</h4>
+                        <h4>Self Employed Musician</h4>
                         <p>
-                            May 2015 - August 2015
+                            Apr 2013 - Sept 2016
                         </p>
                     </div>
-                    <!-- TODO: set grid size for the following div -->
                     <div class="JobDesc col-lg-9">
-                        <strong>Student Software Developer</strong>
+                        <strong>Classical Singer</strong>
                         <ul>
-                            <li><span>Netus posuere euismod curae quis nam massa condimentum, fermentum diam purus hendrerit volutpat habitant curabitur sodales.</span></li>
-                            <li><span>Venenatis gravida dapibus velit nunc hac volutpat neque, enim sodales tempor pharetra integer nam vivamus erat, suspendisse orci sollicitudin donec sociosqu turpis.</span></li>
-                            <li><span>Imperdiet ac nunc sociis porta felis luctus, leo nascetur curabitur pharetra nulla vivamus, auctor donec sagittis penatibus bibendum.</span></li>
+                            <li><span>Innovated and adapted to maximize profits</span></li>
+                            <li><span>Interacted with customers and clients in a positive and professional manner</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row justify-content-around">
+                    <div class="location col-lg-3">
+                        <h4>Chipworks</h4>
+                        <p>
+                            Apr 2012 - Aug 2012 &<br>
+                            Apr 2011 - Aug 2011
+                        </p>
+                    </div>
+                    <div class="JobDesc col-lg-9">
+                        <strong>Depot Specialist/Sample Prep Assistant</strong>
+                        <ul>
+                            <li><span>Innovated and adapted to maximize profits</span></li>
+                            <li><span>Interacted with customers and clients in a positive and professional manner</span></li>
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
 
+
+
         <!-- define projects pane -->
+        <!--
         <div id="projects" class="projects">
             <div class="container">
                 <h2>Projects</h2>
@@ -190,6 +216,7 @@
                 </div>
             </div>
         </div>
+    -->
 
         <!-- define skills pane -->
         <div id="skills" class="skills hidden-phone hidden-tablet">
@@ -197,10 +224,14 @@
                 <h2>Skills</h2>
                 <hr>
                 <p class="lead">
-                    These skills range from years of experience to a couple months of familiarity.
+                    Estimations based on approximate complexity of understanding, and time spent practicing.
                 </p>
                 <div class="row">
                     <ul class="col-md-12 col-lg-6">
+                        <li>
+                            <div class="skill">Python</div>
+                            <div class="meter"><span class="bar" data-width="80%"></span></div>
+                        </li>
                         <li>
                             <div class="skill">Java</div>
                             <div class="meter"><span class="bar" data-width="75%"></span></div>
@@ -213,20 +244,13 @@
                             <div class="skill">C</div>
                             <div class="meter"><span class="bar" data-width="50%"></span></div>
                         </li>
-                        <li>
-                            <div class="skill">Python</div>
-                            <div class="meter"><span class="bar" data-width="80%"></span></div>
-                        </li>
                     </ul>
                     <ul class="col-md-12 col-lg-6">
                         <li>
                             <div class="skill">Node.js</div>
                             <div class="meter"><span class="bar" data-width="30%"></span></div>
                         </li>
-                        <li>
-                            <div class="skill">Studenting</div>
-                            <div class="meter"><span class="bar" style="background-color: #b33" data-width="120%"></span></div>
-                        </li>
+
                         <li>
                             <div class="skill">JavaScript</div>
                             <div class="meter"><span class="bar" data-width="30%"></span></div>
@@ -235,55 +259,17 @@
                             <div class="skill">HTML/CSS</div>
                             <div class="meter"><span class="bar" data-width="30%"></span></div>
                         </li>
-                    </ul>
-                    <ul class="col-md-12 col-lg-12">
                         <li>
                             <div class="skill">Being Awesome</div>
-                            <div class="meter"><span class="bar" style="background: linear-gradient(to right, #f00 0%,#ff0 25%,#0f0 50%,#00f 80%, #606 100%);" data-width="100%"></span></div>
+                            <div class="meter"><span class="bar" style="background: linear-gradient(to right, #f00 0%,#ff0 25%,#0f0 50%,#00f 80%, #500050 100%);" data-width="100%"></span></div>
                         </li>
                     </ul>
                 </div>
             </div>
         </div>
     </div>
-
-<<<<<<< HEAD
-    <!-- define contact footer pane -->
-    <div id="contact" class="contact bg-dark">
-        <div class="container">
-            <h2>Contact</h2>
-            <hr>
-            <div class="row">
-                <div class="col-md-12 col-lg-6">
-                    <a href="mailto:example@email.com">
-                        <img src="assets/contact/at.svg">
-                        <span>example@email.com</span>
-                    </a>
-                </div>
-                <div class="col-md-12 col-lg-6">
-                    <a href="https://github.com/Liz-Davies/">
-                        <img src="assets/contact/github-square.svg">
-                        <span>github.com/Liz-Davies/</span>
-                    </a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12 col-lg-6">
-                    <a href="https://twitter.com/Dev_Davies">
-                        <img src="assets/contact/twitter-square.svg">
-                        <span>twitter.com/Dev_Davies</span>
-                    </a>
-                </div>
-                <div class="col-md-12 col-lg-6">
-                    <a href="http://linkedin.com/in/sarah-elizabeth-liz-davies/">
-                        <img src="assets/contact/linkedin-square.svg">
-                        <span>linkedin.com/in/sarah-elizabeth-liz-davies/</span>
-                    </a>
-                </div>
-            </div>
-=======
   <!-- define contact footer pane -->
-  <div id="contact" class="contact bg-dark">
+  <div id="contact" class="contact">
     <div class="container">
       <h2>Contact</h2>
       <hr>
@@ -313,7 +299,6 @@
             <img src="assets/contact/linkedin-square.svg">
             <span>linkedin.com/in/sarah-elizabeth-liz-davies/</span>
           </a>
->>>>>>> bb3ad302c702558f74776cfa84e20b2986314772
         </div>
     </div>
 </body>

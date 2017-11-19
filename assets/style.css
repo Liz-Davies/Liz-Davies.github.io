@@ -14,8 +14,8 @@ body {
 
 /* global custom styling */
 h2, h3, h5, h6, .h2, .h3, .h5, .h6, strong, b { font-weight: bold; margin-bottom: 20px; }
-h2, h3, h5, h6, .h2, .h3, .h5, .h6 { color: #22A39F; }
-h1, h4 { font-weight: 700; margin-bottom: 10px; }
+h2, h3, h5, h6, .h2, .h3, .h5, .h6 { color: #500050; }
+h1, h4 { font-weight: 700; margin-bottom: 10px;}
 h2, h3 { font-weight: 300; }
 h2 { font-size: 54px; text-align: center; }
 
@@ -28,26 +28,41 @@ h2 { font-size: 54px; text-align: center; }
 
 /* override Bootstrap container */
 .container { padding: 60px 10%; max-width: 1280px; }
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link { color: white; background-color: #22A39F; }
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link { color:#500050 !important; background-color: #fafad1 ;}
 
 /* navbar section */
-.navbar a { color: black; }
-.navbar a:hover { color: #22A39F; }
+.navbar{
+    background-color : #500050;
+}
+.navbar a {
+    color: #fafad1 !important;
+
+}
+.navbar a:hover { color: #ff00ff !important; }
 .navbar-brand {
     font-family: 'Dancing Script', cursive !important;
     font-weight: bold;
-    font-size: 25px
+    font-size: 25px;
+}
+.navbar-toggler-styling{
+    border-color: #fafad1 !important;
+    align-items: left;
+    padding: 1px;
+    width: 24px;
+    height: 24px;
+}
+.navbar-icon{
+    padding:0px;
 }
 /* title section */
 .title {
   /* TODO: Level 1: Update the background image to an image you would like */
   /* REMEMBER: this style.css is in the `assets` dir, so all files are relative to this directory */
-  background-image: url('title.jpg');
+  background-image: url('title.png');
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
   height: 100vh;
   width: 100vw;
   max-width:100%;
@@ -62,7 +77,7 @@ h2 { font-size: 54px; text-align: center; }
 .title h1 {
   font-size: 64px;
   padding-bottom: 10px;
-  border-bottom: 1px solid #FFFFFF;
+  border-bottom: 1px solid #fafad1;
   border-bottom-color: rgba(255,255,255,0.6);
   display: inline-block;
 }
@@ -71,21 +86,27 @@ h2 { font-size: 54px; text-align: center; }
   top: 28%;
   z-index: 4;
 }
-.title .container > * { text-align: center; color: #FFFFFF; }
+.title .container > * { text-align: center; color: #fafad1; }
 
 /* alternate background */
-.content > div:nth-child(2n+1) { background-color: #F3EFDE; }
+.content > div:nth-child(2n+1) { background-color: #F0F0DD  ; }
+.content > div:nth-child(2n) {background-color: #fafad1;}
 
 /* profile section */
+.profile{
+    background-color: #500050;
+    color: #fafad1
+}
+.profile h2 {color:#fafad1 !important;}
 .profile-background {
   min-width: 288px;
   width: 100%;
   height: 100%;
   margin-top: -15px;
-  background-color: #F3EFDE;
+  background-color: rgba(250,250,209,0.5);
   clip-path: circle(125px at center);
 }
-.profile-image { width: 100%; clip-path: circle(110px at center); }
+.profile-image { width: 100%; clip-path: circle(110px at center); opacity:1.0; }
 .thumb {width: 100%; height 100%;}
 /* experiences section */
 .experiences .row { padding-bottom: 20px; }
@@ -124,6 +145,8 @@ h2 { font-size: 54px; text-align: center; }
   text-align: center;
 }
 
+
+
 /* skills section */
 .skills ul { list-style-type: none; }
 .skills ul > li { padding-bottom: 10px; display: flex; justify-content: space-between; }
@@ -131,16 +154,17 @@ h2 { font-size: 54px; text-align: center; }
 .skills li > .meter { flex-basis: 75% }
 
 /* meter specific formatting */
-.meter { padding: 3px; height: 25px; width: 100%; border: 4px solid #22A39F; }
-.meter > .bar { display: block; background-color: #22A39F; height: 100%; width: 0%; }
+.meter { padding: 3px; height: 25px; width: 100%; border: 4px solid #500050; }
+.meter > .bar { display: block; background-color: #500050; height: 100%; width: 0%; }
 
 /* contact section */
 .contact hr { border-top: 1px solid rgba(255, 255, 255, 0.1); }
-.contact h2, .contact p, .contact a { color: white }
+.contact h2, .contact p, .contact a { color: #fafad1; }
 .contact a { display: inline-block; padding-right: 10px; opacity: 0.5; text-decoration: none; }
+.contact a:hover { opacity: 1; }
 .contact a > img { height: 50px; width: 50px; }
 .contact a > span { padding-left: 10px; }
-.contact { width: 100%; display: flex; justify-content: space-between; }
+.contact { width: 100%; display: flex; justify-content: space-between;background-color:#2d1b2d; }
 
 /* TODO: Level 2: Make each contact element opacity: 1 */
 /* HINT: look into the :hover CSS selector */
