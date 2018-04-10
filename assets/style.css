@@ -165,7 +165,7 @@ h2 { font-size: 54px; text-align: center; }
 .contact a:hover { opacity: 1; }
 .contact a > img { height: 50px; width: 50px; }
 .contact a > span { padding-left: 10px; }
-.contact { width: 100%; display: flex; justify-content: space-between;background-color:#2d1b2d; }
+.contact { width: 100%; display: flex; justify-content: space-between;background-color:#2d1b2d !important; }
 
 /* TODO: Level 2: Make each contact element opacity: 1 */
 /* HINT: look into the :hover CSS selector */
