@@ -18,7 +18,7 @@ $(function(){
                     //this will mak our URL bar match where we are on the pages
                     window.location.hash = hash;
                 }
-            });
+            );
         }
     });
 }};
