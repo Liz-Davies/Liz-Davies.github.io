@@ -26,12 +26,13 @@
 </head>
 <body data-spy="scroll" data-target="#main-navbar" data-offset="58">
   <!-- define navbar -->
-    <nav id="main-navbar" class="navbar navbar-expand-md navbar-dark fixed-top">
-        <a class="navbar-brand" href="#">Liz</a>
+    <nav id="main-navbar" class="navbar navbar-expand-md navbar-teal navbar-dark fixed-top">
+        <img class="navbar-brand" src="assets/LizFlowerIcon1.png" href="#"/>
         <button class="navbar-toggler navbar-toggler-styling" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
             <svg class = "navbar-icon" width="20" height="20">
-                <line x1="5" y1="10" x2="15" y2="10" style="stroke:#fafad1;stroke-width:2" />
-                <line x1="10" y1="5" x2="10" y2="15" style="stroke:#fafad1;stroke-width:2" />
+                <line x1="5" y1="10" x2="15" y2="10" style="stroke:#fafafa;stroke-width:2" />
+                <line x1="10" y1="5" x2="10" y2="15" style="stroke:#fafafa;stroke-width:2" />
             </svg>
         </button>
         <div class = "collapse navbar-collapse" id="navbarSupportedContent">
@@ -41,9 +42,6 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#experience">Experience</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#projects">Projects</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#vol">Volunteering</a>
@@ -61,10 +59,12 @@
     <!-- define initial title pane -->
     <div class="title">
         <div class="title-overlay">
-            <div class="container">
-                <h1>Sarah Elizabeth <b style = "font-weight: 600; font-family: 'Dancing Script', cursive">"Liz"</b> Davies</h1>
+            <img class="title-branding" src="assets/SarahElizabethFlowerIcon.svg"/>
+            <!-- <div class="container">
+
+                 <h1>Sarah Elizabeth <b style = "font-weight: 600; font-family: 'Dancing Script', cursive">"Liz"</b> Davies</h1>
                 <h3>Developer</h3>
-            </div>
+            </div> -->
         </div>
     </div>
 
@@ -74,12 +74,13 @@
             <h2>About me</h2>
             <hr>
             <div class="row justify-content-around align-items-center">
-                <div class="profile-background col-xs-1 col-sm-1 col-md-4">
-                    <img src="assets/profile.jpg" alt="" class="profile-image">
-                </div>
+                <img src="assets/ProfilePhotoFlower.png" alt="Liz Davies" class="col-xs-12 col-sm-16 col-md-4 profile-image">
                 <div class="bio col-sm-12 col-md-8">
-                    <p>Student, developer, musican, and life-long learner. Liz Davies is really bad about talking about herself.
-                        Is anyone good at that?
+                    <p>Student, developer, musician, and life-long learner.
+                        I came to computer science as a second degree, and have
+                        made myself at home in the field. I am fast approaching
+                        graduation in 2020 and am searching for a team where I
+                        can contribute and learn.a
                     </p>
                 </div>
             </div>
@@ -94,11 +95,45 @@
                 <h2>Experience</h2>
                 <hr>
                 <!-- row of experiences -->
+
+                <div class="row justify-content-around">
+                    <div class="location col-lg-3">
+                        <h4>Government of Canada</h4>
+                        <p>
+                            May 2019 - August 2019
+                        </p>
+                    </div>
+                    <div class="JobDesc col-lg-9">
+                        <strong>Developer</strong>
+                        <ul>
+                            <li><span>Worked independantly updating and creating in-house tools</span></li>
+                            <li><span>Created projects using Python, Django, Bash Scripting, and Docker</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row justify-content-around">
+                    <div class="location col-lg-3">
+                        <h4>2Keys</h4>
+                        <p>
+                            September 2018 - April 2019
+                        </p>
+                    </div>
+                    <!-- TODO: set grid size for the following div -->
+                    <div class="JobDesc col-lg-9">
+                        <strong>Junior Software Developer</strong>
+                        <ul>
+                            <li><span>Worked with supervision to create update and improve both in-house and client tools</span></li>
+                            <li><span>Created documentation to facilitate project development, setup, and deployment</span></li>
+                            <li><span>Worked on full-stack web projects using, Java, Spring, Javascript (Angular), as well as updating/creating the HTML and CSS</span></li>
+                            <li><span>Took initiative when workload was low to research future projects to make the most out of every minute</span></li>
+                        </ul>
+                    </div>
+                </div>
 		<div class="row justify-content-around">
                     <div class="location col-lg-3">
                         <h4>Carleton University</h4>
                         <p>
-                            January 2018 - Present
+                            January 2018 - April 2018
                         </p>
                     </div>
                     <!-- TODO: set grid size for the following div -->
@@ -182,7 +217,7 @@
 
 
         <!-- define projects pane -->
-        <div id="projects" class="projects">
+        <!-- <div id="projects" class="projects">
             <div class="container">
                 <h2>Projects</h2>
                 <hr>
@@ -200,7 +235,6 @@
                             <a class="btn btn-primary" href="https://godotengine.org/">Godot</a>
                         </div>
                     </div>
-                    <!--
                     <div class="project col-md-12 col-lg-6">
                         <img class="thumb" src="assets/project/dotfiles.jpg">
                         <div class="project-overlay">
@@ -234,18 +268,71 @@
                             <a class="btn btn-primary" href="https://angular.io/">Visit Repo</a>
                         </div>
                     </div>
-                -->
                 </div>
             </div>
-        </div>
+        </div> -->
 	        <!-- define content to contain main sections -->
     <div class="content">
         <!-- define experience pane -->
         <div id="vol" class="vol">
+            <!--
+<div class="row justify-content-around">
+    <div class="location col-lg-3">
+        <h4>Go Code Girl</h4>
+        <p>
+            March 2017
+        </p>
+    </div>
+    <div class="JobDesc col-lg-9">
+        <strong>Volunteer</strong>
+        <ul>
+            <li><span>Supporting speakers, engaging participants, with the hope of inspiring a new generation of programmers</span></li>
+            <li><span>Helping participants who are struggling using metaphors and examples that were age appropriate and accessible</span></li>
+        </ul>
+    </div>
+</div>
+
+Game Jam
+Participant & Volunteer
+On hand to help in the event of an emergency, including first aid training
+
+Go Code Girl
+Volunteer
+
+-->
             <div class="container">
                 <h2>Volunteering & Extra-Curriculars</h2>
                 <hr>
                 <!-- row of experiences -->
+                <div class="row justify-content-around">
+                    <div class="location col-lg-3">
+                        <h4>Hack 4ll The Things 2.3 (CTF)</h4>
+                        <p>
+                            June 2019
+                        </p>
+                    </div>
+                    <div class="JobDesc col-lg-9">
+                        <strong>Competitor</strong>
+                        <ul>
+                            <li><span>Worked as a part of a team to solve challenges and capture flags</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row justify-content-around">
+                    <div class="location col-lg-3">
+                        <h4>Technovation</h4>
+                        <p>
+                            May 2018
+                        </p>
+                    </div>
+                    <div class="JobDesc col-lg-9">
+                        <strong>Judge</strong>
+                        <ul>
+                            <li><span>Listened to pitches for Application focused businesses</span></li>
+                            <li><span>Provided kind and constructive criticism</span></li>
+                        </ul>
+                    </div>
+                </div>
                 <div class="row justify-content-around">
                     <div class="location col-lg-3">
                         <h4>Carleton Computer Science Society</h4>
@@ -254,9 +341,23 @@
                         </p>
                     </div>
                     <div class="JobDesc col-lg-9">
-                        <strong>Vice President Academics</strong>
+                        <strong>Interim Vice President Academics</strong>
                         <ul>
                             <li><span>Arranging talks and workshops to enrich Carleton Computer Science Students</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row justify-content-around">
+                    <div class="location col-lg-3">
+                        <h4>Carleton Computer Science Society</h4>
+                        <p>
+                            September 2016 - March 2019
+                        </p>
+                    </div>
+                    <div class="JobDesc col-lg-9">
+                        <strong>Member</strong>
+                        <ul>
+                            <li><span>Participating and on the spot volunteering at events</span></li>
                         </ul>
                     </div>
                 </div>
@@ -274,6 +375,22 @@
                         </ul>
                     </div>
                 </div>
+                <div class="row justify-content-around">
+                    <div class="location col-lg-3">
+                        <h4>Game Jam</h4>
+                        <p>
+                            November 2017
+                        </p>
+                    </div>
+                    <div class="JobDesc col-lg-9">
+                        <strong>Volunteer and Participant</strong>
+                        <ul>
+                            <li><span>Worked as a member of a team to create a game overnight</span></li>
+                            <li><span>Learned new technologies from scratch like Godot Engine and GDScript</span></li>
+                            <li><span>Was on hand as a first-aid certified volunteer in case of emergency</span></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -285,7 +402,7 @@
                 <p class="lead">
                     Estimations based on approximate complexity of understanding, and time spent practicing.
                 </p>
-                <div class="row">                
+                <div class="row">
                     <ul class="col-md-12 col-lg-6">
                         <li>
                             <div class="skill">Python</div>
@@ -296,27 +413,26 @@
                             <div class="meter"><span class="bar" data-width="70%"></span></div>
                         </li>
                         <li>
-                            <div class="skill">C++</div>
-                            <div class="meter"><span class="bar" data-width="40%"></span></div>
+                            <div class="skill">JavaScript</div>
+                            <div class="meter"><span class="bar" data-width="55%"></span></div>
                         </li>
                         <li>
-                            <div class="skill">C</div>
-                            <div class="meter"><span class="bar" data-width="40%"></span></div>
+                            <div class="skill">HTML/CSS</div>
+                            <div class="meter"><span class="bar" data-width="55%"></span></div>
                         </li>
                     </ul>
                     <ul class="col-md-12 col-lg-6">
                         <li>
                             <div class="skill">Node.js</div>
-                            <div class="meter"><span class="bar" data-width="20%"></span></div>
-                        </li>
-
-                        <li>
-                            <div class="skill">JavaScript</div>
-                            <div class="meter"><span class="bar" data-width="20%"></span></div>
+                            <div class="meter"><span class="bar" data-width="25%"></span></div>
                         </li>
                         <li>
-                            <div class="skill">HTML/CSS</div>
-                            <div class="meter"><span class="bar" data-width="20%"></span></div>
+                            <div class="skill">C++</div>
+                            <div class="meter"><span class="bar" data-width="15%"></span></div>
+                        </li>
+                        <li>
+                            <div class="skill">C</div>
+                            <div class="meter"><span class="bar" data-width="15%"></span></div>
                         </li>
                         <li>
                             <div class="skill">Being Awesome</div>

@@ -14,38 +14,45 @@ body {
 
 /* global custom styling */
 h2, h3, h5, h6, .h2, .h3, .h5, .h6, strong, b { font-weight: bold; margin-bottom: 20px; }
-h2, h3, h5, h6, .h2, .h3, .h5, .h6 { color: #500050; }
+h2, h3, h5, h6, .h2, .h3, .h5, .h6 { color:#056e6e; }
 h1, h4 { font-weight: 700; margin-bottom: 10px;}
 h2, h3 { font-weight: 300; }
-h2 { font-size: 54px; text-align: center; }
+h2 { font-size: 44px; text-align: center; }
 
-/* TODO: Level 1: center all <p> elements with the .lead class */
-/* we'll also set the font colour to #727878 */
-/* here are some suggestions: */
 /* p .lead { text-align: center; color: #727878; } */
 /* p { text-align: center; color: #727878; } */
 /* p .lead { text-align: right; color: #727878; } */
 
 /* override Bootstrap container */
 .container { padding: 60px 10%; max-width: 1280px; }
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link { color:#500050 !important; background-color: #fafad1 ;}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color:#500050 !important;
+    background-color: #fafafa ;}
 
 /* navbar section */
+/*
+New clolurs
+teal: #056e6e
+red: #c02424
+*/
 .navbar{
-    background-color : #500050;
+    background-color :#056e6e;
 }
 .navbar a {
-    color: #fafad1 !important;
+    color: #fafafa !important;
 
 }
-.navbar a:hover { color: #ff00ff !important; }
+/* .navbar a:hover { color: #c02424 !important; } */
 .navbar-brand {
-    font-family: 'Dancing Script', cursive !important;
+    /* font-family: 'Dancing Script', cursive !important;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 25px; */
+    padding-top:0px;
+    padding-bottom:0px;
+    max-height: 50px;
 }
 .navbar-toggler-styling{
-    border-color: #fafad1 !important;
+    border-color: #fafafa !important;
     align-items: left;
     padding: 1px;
     width: 24px;
@@ -56,17 +63,24 @@ h2 { font-size: 54px; text-align: center; }
 }
 /* title section */
 .title {
-  /* TODO: Level 1: Update the background image to an image you would like */
-  /* REMEMBER: this style.css is in the `assets` dir, so all files are relative to this directory */
-  background-image: url('title.png');
+  background-image: url('WebsiteTileableBackground.png');
   background-attachment: fixed;
   background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-repeat:repeat;
+  /* background-size: cover; */
   height: 100vh;
   width: 100vw;
   max-width:100%;
   text-align: center;
+}
+.title > * {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.title-branding{
+    height: 55vh;
+    max-height: 55vh;
 }
 .title-overlay {
   height: 100%;
@@ -77,36 +91,27 @@ h2 { font-size: 54px; text-align: center; }
 .title h1 {
   font-size: 64px;
   padding-bottom: 10px;
-  border-bottom: 1px solid #fafad1;
+  border-bottom: 1px solid #fafafa;
   border-bottom-color: rgba(255,255,255,0.6);
   display: inline-block;
 }
 .title .container {
-  position: relative;
-  top: 28%;
+  /* position: relative; */
   z-index: 4;
 }
-.title .container > * { text-align: center; color: #fafad1; }
+.title .container > * { text-align: center; color: #fafafa; }
 
 /* alternate background */
 .content > div:nth-child(2n+1) { background-color: #F0F0DD  ; }
-.content > div:nth-child(2n) {background-color: #fafad1;}
+.content > div:nth-child(2n) {background-color: #fafafa;}
 
 /* profile section */
 .profile{
-    background-color: #500050;
-    color: #fafad1
+    background-color:#056e6e;
+    color: #fafafa
 }
-.profile h2 {color:#fafad1 !important;}
-.profile-background {
-  min-width: 288px;
-  width: 100%;
-  height: 100%;
-  margin-top: -15px;
-  background-color: rgba(250,250,209,0.5);
-  clip-path: circle(125px at center);
-}
-.profile-image { width: 100%; clip-path: circle(110px at center); opacity:1.0; }
+.profile h2 {color:#fafafa !important;}
+.profile-image { width: 100%; opacity:1.0; max-width: 250px;}
 .thumb {width: 100%; height 100%;}
 .thumb {width: 100%; height: 100%;}
 /* experiences section */
@@ -121,9 +126,6 @@ h2 { font-size: 54px; text-align: center; }
 /* project section */
 .projects .row > div { margin-bottom: 20px; }
 .projects .project { position: relative; }
-/* TODO: Level 2: Limit the width of the image to the containing element */
-/* Let's try to figure out how to select all images within the .project */
-/* We should then try to limit the width to 100% */
 
 .project-overlay {
   position: absolute;
@@ -148,6 +150,8 @@ h2 { font-size: 54px; text-align: center; }
 
 
 
+
+
 /* skills section */
 .skills ul { list-style-type: none; }
 .skills ul > li { padding-bottom: 10px; display: flex; justify-content: space-between; }
@@ -155,17 +159,14 @@ h2 { font-size: 54px; text-align: center; }
 .skills li > .meter { flex-basis: 75% }
 
 /* meter specific formatting */
-.meter { padding: 3px; height: 25px; width: 100%; border: 4px solid #500050; }
-.meter > .bar { display: block; background-color: #500050; height: 100%; width: 0%; }
+.meter { padding: 3px; height: 25px; width: 100%; border: 4px solid#056e6e; }
+.meter > .bar { display: block; background-color:#056e6e; height: 100%; width: 0%; }
 
 /* contact section */
 .contact hr { border-top: 1px solid rgba(255, 255, 255, 0.1); }
-.contact h2, .contact p, .contact a { color: #fafad1; }
+.contact h2, .contact p, .contact a { color:#089e9e; }
 .contact a { display: inline-block; padding-right: 10px; opacity: 0.5; text-decoration: none; }
 .contact a:hover { opacity: 1; }
 .contact a > img { height: 50px; width: 50px; }
 .contact a > span { padding-left: 10px; }
-.contact { width: 100%; display: flex; justify-content: space-between;background-color:#2d1b2d !important; }
-
-/* TODO: Level 2: Make each contact element opacity: 1 */
-/* HINT: look into the :hover CSS selector */
+.contact { width: 100%; display: flex; justify-content: space-between;background-color:#0c0c0c !important; }
