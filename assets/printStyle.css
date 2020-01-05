@@ -15,15 +15,6 @@ h4{
     colour-adjust:exact !important;
     background-color: #056e6e !important;
 }
-/* body > * {
-    border: 1px solid red;
-}
-body >* >* {
-    border: 1px solid blue;
-}
-body >*>*>*{
-    border: 1px solid green;
-} */
 .bio{
     display: block;
     width:100% !important;
@@ -55,19 +46,16 @@ body >*>*>*{
 .title{
     -webkit-print-color-adjust: exact !important;
     color-adjust:exact !important;
-    background-color: #056e6e !important;
+    background-color: #056e6e !important;/*backup if image fails*/
     background:url('WebsiteTileableBackground.png') !important;
     height: 140px;
-    /* background-color: #056e6e !important; */
     overflow-x: hidden;
     display:flex-root;
     justify-content: flex-start;
     align-items: flex-start;
     padding:0px;
-    /* border-bottom: 1px solid rgba(34,163,159,0.35); */
     background: none;
     height: unset;
-    /* max-height:130px; */
     width: 100%;
 }
 .print-contact {
@@ -114,10 +102,6 @@ body >*>*>*{
     -ms-flex-align: stretch!important;
     align-items: stretch!important;
 }
-/* .education div > strong{
-    padding-top: unset;
-    margin-bottom:unset;
-} */
 .school > * {
     display:inline-block;
     padding: 5px 8px;
@@ -205,7 +189,7 @@ ul {
     background-color: #056e6e;
 }
 /*alternative sizeing for hex. May switch back depending on context"
-/*
+
 .hex-mask{
     width:150px;
     height: 180px;
@@ -213,18 +197,20 @@ ul {
 .hex-pie{
     width:150px;
     height:180px;
-} */
-/* .hex-row > .hex-pie{
+}
+.hex-row > .hex-pie{
     margin-top: -45px
-} */
+}
+.hex-name-plate{
+    top:50px;
+    left:35px;
+}
+*/
 .hex-row{
     max-width:915px;
     margin:auto;
 }
-/* .hex-name-plate{
-    top:50px;
-    left:35px;
-} */
+
 .hex-row > .hex:nth-child(15n-7){
     margin-left:67px;
 }

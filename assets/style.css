@@ -20,10 +20,6 @@ h2, h3 { font-weight: 300; }
 h2 { font-size: 44px; }
 strong{font-weight: bold;}
 
-/* p .lead { text-align: center; color: #727878; } */
-/* p { text-align: center; color: #727878; } */
-/* p .lead { text-align: right; color: #727878; } */
-
 /* override Bootstrap container */
 .container { padding: 60px 10%; max-width: 1280px; }
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
@@ -45,9 +41,6 @@ red: #c02424
 }
 /* .navbar a:hover { color: #c02424 !important; } */
 .navbar-brand {
-    /* font-family: 'Dancing Script', cursive !important;
-    font-weight: bold;
-    font-size: 25px; */
     padding-top:0px;
     padding-bottom:0px;
     max-height: 50px;
@@ -68,7 +61,6 @@ red: #c02424
   background-attachment: fixed;
   background-position: center;
   background-repeat:repeat;
-  /* background-size: cover; */
   height: 100vh;
   width: 100vw;
   max-width:100%;
@@ -89,14 +81,11 @@ red: #c02424
 }
 /* Add thin line under title */
 .title h1 {
-  /* font-size: 64px;
-  padding-bottom: 10px; */
   border-bottom: 1px solid #fafafa;
   border-bottom-color: rgba(255,255,255,0.6);
   display: inline-block;
 }
 .title .container {
-  /* position: relative; */
   z-index: 4;
 }
 .title .container > * { text-align: center; color: #fafafa; }
@@ -206,23 +195,12 @@ red: #c02424
 .contact a > img { height: 50px; width: 50px; }
 .contact a > span { padding-left: 10px; }
 .contact { width: 100%; display: flex; justify-content: space-between;background-color:#0c0c0c !important; }
-/* .hexagon {
-  position: relative;
-  width: 95px;
-  height: 54.85px;
-  background-color: #ffffff;
-  margin: 27.42px 0;
-  border-left: solid 2px #00a8a8;
-  border-right: solid 2px #00a8a8;
-} */
+
 .hex-pie{
   position:relative;
   height:135px;
   width:115px;
   margin:5px;
-/*   overflow-x:hidden;
-  overflow-y:hidden; */
-/*   background: grey; */
 }
 .hex-name-plate{
   font-family:sans-serif;
@@ -240,7 +218,6 @@ red: #c02424
   box-shadow:2px 2px 5px;
 }
 .hex-title{
-    /* padding-top:40px; */
     text-align: center;
 }
 .hex-info{
@@ -251,8 +228,6 @@ red: #c02424
   height:100%;
   width:100%;
   position:absolute;
-  /* top:1%;
-  left:1%; */
   overflow-x:hidden;
   overflow-y:hidden;
 }
