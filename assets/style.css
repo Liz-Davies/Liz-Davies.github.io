@@ -223,6 +223,7 @@ red: #c02424
 .hex-info{
     margin-top:-5px;
     color: #86a7a7;
+    font-size:80%;
 }
 .hex-content{
   height:100%;
@@ -302,7 +303,7 @@ red: #c02424
     top: 25px;
     font-size: 80px;
     position: absolute;
-    color: #fffffa26;
+    color: #fffffa36;
 }
 
 .hex-interest .hex-content{

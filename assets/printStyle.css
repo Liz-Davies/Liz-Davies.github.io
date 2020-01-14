@@ -62,6 +62,7 @@ h4{
     color: #fff;
     padding: 5px;
     align-self: center;
+    font-weight: 400;
 }
 .print-contact h1{
 
@@ -187,6 +188,9 @@ ul {
     -webkit-print-color-adjust: exact;
     color-adjust:exact !important;
     background-color: #056e6e;
+}
+.hex-interest .hex-icon{
+    color: #3a8d8c;
 }
 /*alternative sizeing for hex. May switch back depending on context"
 
