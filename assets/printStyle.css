@@ -47,8 +47,9 @@ h4{
     -webkit-print-color-adjust: exact !important;
     color-adjust:exact !important;
     background-color: #056e6e !important;/*backup if image fails*/
-    background:url('WebsiteTileableBackground.png') !important;
+    /* background:url('WebsiteTileableBackground.png') !important; */
     height: 140px;
+    border-bottom:1px solid white !important;
     overflow-x: hidden;
     display:flex-root;
     justify-content: flex-start;
@@ -62,7 +63,7 @@ h4{
     color: #fff;
     padding: 5px;
     align-self: center;
-    font-weight: 400;
+
 }
 .print-contact h1{
 
@@ -72,6 +73,7 @@ h4{
 .print-contact h4{
     font-size: 24px;
     margin:0px;
+    font-weight: 300;
 }
 .contact-left{
     text-align:right;
@@ -179,7 +181,7 @@ ul {
      -webkit-print-color-adjust: exact;
      color-adjust:exact !important;
 }
-.hex-mask > .hex-mask > .hex-mask .hex-mask{
+.hex-mask > .hex-mask >.hex-mask{
     background-color: #aaa; !important;
     -webkit-print-color-adjust: exact;
     color-adjust:exact !important;
