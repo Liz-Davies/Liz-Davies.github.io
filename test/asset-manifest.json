@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/test/static/css/main.c0ceb221.chunk.css",
+    "main.js": "/test/static/js/main.dbdfbef8.chunk.js",
+    "main.js.map": "/test/static/js/main.dbdfbef8.chunk.js.map",
+    "runtime-main.js": "/test/static/js/runtime-main.e0e1541c.js",
+    "runtime-main.js.map": "/test/static/js/runtime-main.e0e1541c.js.map",
+    "static/js/2.b80e57a7.chunk.js": "/test/static/js/2.b80e57a7.chunk.js",
+    "static/js/2.b80e57a7.chunk.js.map": "/test/static/js/2.b80e57a7.chunk.js.map",
+    "index.html": "/test/index.html",
+    "precache-manifest.3facbe28f43dcead49e7decb7ae4681c.js": "/test/precache-manifest.3facbe28f43dcead49e7decb7ae4681c.js",
+    "service-worker.js": "/test/service-worker.js",
+    "static/css/main.c0ceb221.chunk.css.map": "/test/static/css/main.c0ceb221.chunk.css.map",
+    "static/js/2.b80e57a7.chunk.js.LICENSE.txt": "/test/static/js/2.b80e57a7.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/test/static/media/TileableWatermelon2.f70de74b.png",
+    "static/media/logo.svg": "/test/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e0e1541c.js",
+    "static/js/2.b80e57a7.chunk.js",
+    "static/css/main.c0ceb221.chunk.css",
+    "static/js/main.dbdfbef8.chunk.js"
+  ]
+}
