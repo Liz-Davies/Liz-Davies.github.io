@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.533e31a4.chunk.css",
+    "main.js": "/static/js/main.12ad3137.chunk.js",
+    "main.js.map": "/static/js/main.12ad3137.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.839dcafe.js",
+    "runtime-main.js.map": "/static/js/runtime-main.839dcafe.js.map",
+    "static/js/2.b2545f53.chunk.js": "/static/js/2.b2545f53.chunk.js",
+    "static/js/2.b2545f53.chunk.js.map": "/static/js/2.b2545f53.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.fe328ea26cb303e3fa31d8a35a4d8f0a.js": "/precache-manifest.fe328ea26cb303e3fa31d8a35a4d8f0a.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.533e31a4.chunk.css.map": "/static/css/main.533e31a4.chunk.css.map",
+    "static/js/2.b2545f53.chunk.js.LICENSE.txt": "/static/js/2.b2545f53.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/static/media/close-up-concrete-flora-growth.0bb85d18.jpg",
+    "static/media/logo.a0cdd1c4.svg": "/static/media/logo.a0cdd1c4.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.839dcafe.js",
+    "static/js/2.b2545f53.chunk.js",
+    "static/css/main.533e31a4.chunk.css",
+    "static/js/main.12ad3137.chunk.js"
+  ]
+}
