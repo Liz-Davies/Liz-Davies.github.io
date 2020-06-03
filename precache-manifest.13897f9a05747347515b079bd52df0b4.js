@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "585e1f60ea6e94f59b00d396988cba04",
+    "revision": "1363b216f178fe53edb21070b48d196c",
     "url": "/index.html"
   },
   {
-    "revision": "af2b78c0dce702990832",
-    "url": "/static/css/main.2666622b.chunk.css"
+    "revision": "202d4f500499640bcf3f",
+    "url": "/static/css/main.bb175ac2.chunk.css"
   },
   {
     "revision": "9982580cf3d136e7904a",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.e24f977f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "af2b78c0dce702990832",
-    "url": "/static/js/main.ef521b8c.chunk.js"
+    "revision": "202d4f500499640bcf3f",
+    "url": "/static/js/main.ae320f4d.chunk.js"
   },
   {
     "revision": "9bc29a396d26f98d9dcc",
@@ -28,11 +28,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/TileableWatermelon2.f70de74b.png"
   },
   {
+    "revision": "fce658d64074fb5c251e1b70620df671",
+    "url": "/static/media/close-up-concrete-flora-growth-med.fce658d6.jpg"
+  },
+  {
     "revision": "0bb85d18263fce6f45da872ee59198b6",
     "url": "/static/media/close-up-concrete-flora-growth.0bb85d18.jpg"
   },
   {
-    "revision": "a0cdd1c4d793fb2d58a5f557ffd9fc97",
-    "url": "/static/media/logo.a0cdd1c4.svg"
+    "revision": "cb8bbde17d37fcc98b8262b39ed4a137",
+    "url": "/static/media/logo.cb8bbde1.svg"
   }
 ]);

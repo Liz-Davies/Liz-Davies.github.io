@@ -1,6 +1,6 @@
 <svg version="1.1" viewBox="0.0 0.0 240.0 240.0" fill="none" stroke="none" stroke-linecap="square" stroke-miterlimit="10" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
     <defs>
-        <linearGradient id="tree-point-gradient" x1="0" x2="0" y1="0" y2="1">>
+        <linearGradient id="tree-point-gradient" x1="0" x2="0" y1="0" y2="1">
             <stop class="stop1" offset="0%"/>
             <stop class="stop2" offset="50%"/>
             <stop class="stop3" offset="100%"/>
@@ -32,12 +32,12 @@
             <stop class="stop5" offset="80%"/>
             <stop class="stop6" offset="100%"/>
         </linearGradient>
-        <linearGradient id="rainbow-animated" x1="100%" y1="100%">
+        <linearGradient id="rainbow-animated" x1="100%" y1="100%"  gradientUnits="userSpaceOnUse" gradientTransform="rotate(-30)">
             <stop offset="0%" stop-color="#ff2400">
-                <animate attributeName="stop-color" values=" #ff2400; #e81d1d; #e8b71d; #e3e81d; #1de840; #1ddde8; #2b1de8; #dd00f3; #dd00f3; #ff2400" dur="14s" repeatCount="indefinite" />
+                <animate attributeName="stop-color" values=" #ff2400;  #e81d1d; #e81d1d; #e8b71d; #e8b71d; #e3e81d; #e3e81d; #1de840; #1de840; #1ddde8; #1ddde8;  #2b1de8; #2b1de8; #dd00f3; #dd00f3; #ff2400; #ff2400" dur="14s" repeatCount="indefinite" />
             </stop>
-            <stop offset="100%" stop-color="#e81d1d">
-                <animate attributeName="stop-color" values="#e81d1d; #e8b71d; #e3e81d; #1de840; #1ddde8; #2b1de8; #dd00f3; #dd00f3; #ff2400;#e81d1d" dur="14s" repeatCount="indefinite" />
+            <stop offset="100%" stop-color="#ff2400">
+                <animate attributeName="stop-color" values="#ff2400; #ff2400;  #e81d1d; #e81d1d; #e8b71d; #e8b71d; #e3e81d; #e3e81d; #1de840; #1de840; #1ddde8; #1ddde8;  #2b1de8; #2b1de8; #dd00f3; #dd00f3; #ff2400" dur="14s" repeatCount="indefinite" />
             </stop>
         </linearGradient>
     </defs>
